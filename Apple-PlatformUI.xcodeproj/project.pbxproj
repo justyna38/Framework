@@ -14,6 +14,7 @@
 		0BE0ECC32B0A8BEC00C1B6F4 /* Apple_PlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE0ECC22B0A8BEC00C1B6F4 /* Apple_PlatformUITests.swift */; };
 		0BE0ECCD2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE0ECCC2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITests.swift */; };
 		0BE0ECCF2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE0ECCE2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITestsLaunchTests.swift */; };
+		0BE0ECDC2B0A8C3B00C1B6F4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE0ECDB2B0A8C3B00C1B6F4 /* Framework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0BE0ECC82B0A8BEC00C1B6F4 /* Apple-PlatformUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple-PlatformUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE0ECCC2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PlatformUIUITests.swift; sourceTree = "<group>"; };
 		0BE0ECCE2B0A8BEC00C1B6F4 /* Apple_PlatformUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PlatformUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BE0ECDB2B0A8C3B00C1B6F4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0BE0ECB32B0A8BEB00C1B6F4 /* ContentView.swift */,
 				0BE0ECB52B0A8BEB00C1B6F4 /* Assets.xcassets */,
 				0BE0ECB72B0A8BEB00C1B6F4 /* Preview Content */,
+				0BE0ECDB2B0A8C3B00C1B6F4 /* Framework.swift */,
 			);
 			path = "Apple-PlatformUI";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BE0ECB42B0A8BEB00C1B6F4 /* ContentView.swift in Sources */,
+				0BE0ECDC2B0A8C3B00C1B6F4 /* Framework.swift in Sources */,
 				0BE0ECB22B0A8BEB00C1B6F4 /* Apple_PlatformUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
